@@ -23,43 +23,43 @@ jobs:
       matrix:
         include:
           - model: r9s
-            branch: rebased-11
+            branch: testing-plus
             variant: ksu
           - model: r9s
-            branch: rebased-11
+            branch: testing-plus
             variant: susfs
           - model: r9s
-            branch: rebased-11
+            branch: testing-plus
             variant: vanilla
     
           - model: o1s
-            branch: rebased-11
+            branch: testing-plus
             variant: ksu
           - model: o1s
-            branch: rebased-11
+            branch: testing-plus
             variant: susfs
           - model: o1s
-            branch: rebased-11
+            branch: testing-plus
             variant: vanilla
     
           - model: t2s
-            branch: rebased-11
+            branch: testing-plus
             variant: ksu
           - model: t2s
-            branch: rebased-11
+            branch: testing-plus
             variant: susfs
           - model: t2s
-            branch: rebased-11
+            branch: testing-plus
             variant: vanilla
     
           - model: p3s
-            branch: rebased-11
+            branch: testing-plus
             variant: ksu
           - model: p3s
-            branch: rebased-11
+            branch: testing-plus
             variant: susfs
           - model: p3s
-            branch: rebased-11
+            branch: testing-plus
             variant: vanilla
     
     steps:
